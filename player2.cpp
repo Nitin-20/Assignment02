@@ -1,11 +1,24 @@
 #include"player.h"
 int main()
 {
-	Player p1(40);
-	p1.Display();
-	Player p2();
-	p2.Accept();
-	p2.Display();
+	int n;
+	cout<<"Enter the no of players you want:"<<"\t";
+	cin>>n;
+
+	Player parr[n];
+
+	for(int i=0;i<n;i++)
+	{
+	parr[i].Accept();
+	}
+
+    	Sort(parr,n);
+
+	for(int i=0;i<n;i++)
+	{
+	parr[i].Display();
+	}
+
 	return 0;
 
 }
