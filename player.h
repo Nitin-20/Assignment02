@@ -12,6 +12,7 @@ class Player
 		Player(string,int,string);
 		void Accept();
 		void Display();
+		int Agedata();
 
 };
 
