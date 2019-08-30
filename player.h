@@ -9,7 +9,7 @@ class Player
 		string country;
 	public:
 		Player();
-		Player(int);
+		Player(string,int,string);
 		void Accept();
 		void Display();
 
