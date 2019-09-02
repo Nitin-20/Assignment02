@@ -32,7 +32,12 @@
 	cout<<"\n City="<<city<<endl;
 	cout<<"\n Pincode="<<pincode<<endl;
 	}
-	int Address::comp(Address& a1,Address& a2)
+bool Address::operator==(const Address &a)const
+{	
+	return(houseno==a.houseno && colony==a.colony && area==a.area && city==a.city && pincode==a.pincode)
+}
+	
+	/*int Address::comp(Address& a1,Address& a2)
 	{
 	    if(a1.houseno==a2.houseno && a1.colony==a2.colony && a1.area==a2.area && a1.city==a2.city && a1.pincode==a2.pincode)
         {
@@ -42,4 +47,4 @@
             cout<<"\n Address is not same"<<endl;
         }
         return 0;
-	}
+	}*/
