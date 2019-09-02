@@ -20,4 +20,5 @@ class Address
 		void Accept();
 		void Display();
 		int comp(Address& ,Address&);
+	bool operator==(const)const;
 };
