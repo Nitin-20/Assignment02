@@ -8,19 +8,19 @@
 
 	void Address::Accept(){
 	cout<<"\n Enter House no:"<<endl;
-	cin.get();
+	//cin.get();
 	getline(cin,houseno);
 	cout<<"\n Enter Colony name:"<<endl;
-	cin.get();
+	//cin.get();
 	getline(cin,colony);
 	cout<<"\n Enter Area"<<endl;
-	cin.get();
+	//cin.get();
 	getline(cin,area);
 	cout<<"\n Enter City"<<endl;
-	cin.get();
+	//cin.get();
 	getline(cin,city);
 	cout<<"\n Enter Pincode:"<<endl;
-	cin.get();
+	//cin.get();
 	getline(cin,pincode);
 
 	}
