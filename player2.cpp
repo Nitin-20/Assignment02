@@ -27,7 +27,8 @@ int n;
 cout<<"Enter the no of players you want:"<<"\t";
 cin>>n;
 
-	Player parr[n];
+	//Player parr[n];
+	Player parr[50];
 
 	for(int i=0;i<n;i++)
 
