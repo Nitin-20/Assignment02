@@ -34,7 +34,7 @@
 	}
 bool Address::operator==(const Address &a)const
 {	
-	return(houseno==a.houseno && colony==a.colony && area==a.area && city==a.city && pincode==a.pincode)
+	return(houseno==a.houseno && colony==a.colony && area==a.area && city==a.city && pincode==a.pincode);
 }
 	
 	/*int Address::comp(Address& a1,Address& a2)
